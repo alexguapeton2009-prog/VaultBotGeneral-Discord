@@ -1,3 +1,5 @@
+import traceback
+import sys
 import discord
 from discord.ext import commands
 import asyncio
@@ -535,4 +537,8 @@ class VistaCerrarTicket(discord.ui.View):
         await asyncio.sleep(SEGUNDOS_BORRAR)
         await canal.delete()
 
-bot.run(TOKEN)
+try:
+    bot.run(TOKEN)
+except Exception as e:
+    traceback.print_exc()
+    sys.exit(1)
