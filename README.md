@@ -64,7 +64,7 @@ TOKEN = "TU_TOKEN_AQUI"
 
 ### GUILD_ID
 ```python
-GUILD_ID = 1496981659655078000
+GUILD_ID = 
 ```
 > ID de tu servidor de Discord.  
 > Clic derecho sobre el nombre del servidor → Copiar ID del servidor.
@@ -73,7 +73,7 @@ GUILD_ID = 1496981659655078000
 
 ### BIENVENIDA_CH_ID
 ```python
-BIENVENIDA_CH_ID = 1496982319112913086
+BIENVENIDA_CH_ID = 
 ```
 > ID del canal donde aparecerán los mensajes de bienvenida cuando alguien se una.  
 > Ejemplo: canal llamado `👋・bienvenida`
@@ -82,7 +82,7 @@ BIENVENIDA_CH_ID = 1496982319112913086
 
 ### DESPEDIDA_CH_ID
 ```python
-DESPEDIDA_CH_ID = 1496982512205828248
+DESPEDIDA_CH_ID = 
 ```
 > ID del canal donde aparecerán los mensajes de despedida cuando alguien se vaya.  
 > Ejemplo: canal llamado `👋・despedida`
@@ -91,7 +91,7 @@ DESPEDIDA_CH_ID = 1496982512205828248
 
 ### VERIFICACION_CH_ID
 ```python
-VERIFICACION_CH_ID = 1496988696455413770
+VERIFICACION_CH_ID = 
 ```
 > ID del canal donde el bot publicará el mensaje de verificación.  
 > Ejemplo: canal llamado `✅・verificarse`  
@@ -101,7 +101,7 @@ VERIFICACION_CH_ID = 1496988696455413770
 
 ### TICKETS_CH_ID
 ```python
-TICKETS_CH_ID = 1496983520726482994
+TICKETS_CH_ID = 
 ```
 > ID del canal donde el bot publicará el panel de tickets con el botón de "Abrir Ticket".  
 > Ejemplo: canal llamado `🎫・tickets`
@@ -110,7 +110,7 @@ TICKETS_CH_ID = 1496983520726482994
 
 ### TICKETS_CATEGORY_ID
 ```python
-TICKETS_CATEGORY_ID = 1496982211432415393
+TICKETS_CATEGORY_ID = 
 ```
 > ID de la CATEGORÍA donde se crearán los canales de tickets.  
 > Clic derecho sobre la categoría → Copiar ID.  
@@ -120,7 +120,7 @@ TICKETS_CATEGORY_ID = 1496982211432415393
 
 ### LOG_CH_ID
 ```python
-LOG_CH_ID = 1496999027391332452
+LOG_CH_ID = 
 ```
 > ID del canal de logs donde el bot notificará cuando se abra o cierre un ticket.  
 > Solo el Owner debería ver este canal.  
@@ -130,7 +130,7 @@ LOG_CH_ID = 1496999027391332452
 
 ### ROL_NO_VERIFICADO_ID
 ```python
-ROL_NO_VERIFICADO_ID = 1496987179174592712
+ROL_NO_VERIFICADO_ID = 
 ```
 > ID del rol que se asigna automáticamente al entrar al servidor.  
 > En tu servidor debería llamarse `❌ Miembro No Verificado`  
@@ -140,7 +140,7 @@ ROL_NO_VERIFICADO_ID = 1496987179174592712
 
 ### ROL_VERIFICADO_ID
 ```python
-ROL_VERIFICADO_ID = 1496987032071700530
+ROL_VERIFICADO_ID = 
 ```
 > ID del rol que se asigna cuando el usuario reacciona con ✅ en el canal de verificación.  
 > En tu servidor debería llamarse `✅ Miembro Verificado`
@@ -149,7 +149,7 @@ ROL_VERIFICADO_ID = 1496987032071700530
 
 ### ROL_OWNER_ID
 ```python
-ROL_OWNER_ID = 1496986693457285272
+ROL_OWNER_ID = 
 ```
 > ID del rol de administrador principal.  
 > En tu servidor se llama `👑 Owner`  
@@ -159,7 +159,7 @@ ROL_OWNER_ID = 1496986693457285272
 
 ### FOTO_BIENVENIDA
 ```python
-FOTO_BIENVENIDA = "https://i.imgur.com/TUIMAGEN.png"
+FOTO_BIENVENIDA = ""
 ```
 > URL directa de la imagen que aparece en el embed de bienvenida.  
 > Para subir tu imagen: ve a https://imgur.com → sube la foto → clic derecho → Copiar dirección de imagen.  
